@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 
 const Child = ({state,setState})=>{
-
+let {learnreact,buildreact,deployreact} = state
 console.log(state)
 return (<>
     <h2>Child Component</h2>
