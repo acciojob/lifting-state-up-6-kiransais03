@@ -3,7 +3,7 @@ import Child from "./Child"
 
 const Parent = ()=>{
 
-let [state,setState]=useState({learnreact:false,buildreact:false,deployreact:false});
+let [state,setState]=useState({learnreact:true,buildreact:true,deployreact:true});
 
 return (<>
     <h1>Parent Component</h1>
